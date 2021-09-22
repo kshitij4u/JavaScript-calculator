@@ -111,10 +111,10 @@
                     this.operandB = this.operandA;
                 } else if (this.operation === '=') {
                     
-                    if (this.operation === '=' && char === '=') {
-                        //use case: special case for repeated equal presses
-                        this.operandB = this.operationProc.ProcessMathOperation(this.operation, this.operandB, this.operandA);
-                    }
+//                     if (this.operation === '=' && char === '=') {
+//                         //use case: special case for repeated equal presses
+//                         this.operandB = this.operationProc.ProcessMathOperation(this.operation, this.operandB, this.operandA);
+//                     }
                 } else {
                     
                     this.operandB = this.operationProc.ProcessMathOperation(this.operation, this.operandB, this.operandA);
